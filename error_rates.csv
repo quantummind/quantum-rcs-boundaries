@@ -1,0 +1,8 @@
+Date,2-qubit isolated error rate,Citation
+6/1/09,0.06,"DiCarlo, Leonardo, et al. ""Demonstration of two-qubit algorithms with a superconducting quantum processor."" Nature 460.7252 (2009): 240-244."
+8/1/12,0.015,"Chow, Jerry M., et al. ""Universal quantum gate set approaching fault-tolerant thresholds with superconducting qubits."" Physical review letters 109.6 (2012): 060501."
+2/1/14,0.01,"Chen, Yu, et al. ""Qubit architecture with high coherence and fast tunable coupling."" Physical review letters 113.22 (2014): 220502."
+4/1/14,0.006,"Barends, Rami, et al. ""Superconducting quantum circuits at the surface code threshold for fault tolerance."" Nature 508.7497 (2014): 500-503."
+6/1/16,0.004,"Sheldon, Sarah, et al. ""Procedure for systematically tuning up cross-talk in the cross-resonance gate."" Physical Review A 93.6 (2016): 060302."
+10/1/19,0.0036,"Boixo, Sergio, et al. ""Characterizing quantum supremacy in near-term devices."" Nature Physics 14.6 (2018): 595-600."
+1/1/20,0.003,"Kjaergaard, M., et al. ""A quantum instruction set implemented on a superconducting quantum processor."" arXiv preprint arXiv:2001.08838 (2020)."
