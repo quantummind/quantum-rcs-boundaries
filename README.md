@@ -21,7 +21,7 @@ which contains data from the original Google quantum supremacy experiment
 * `main.nb`: Fig. 2 and Fig. 3 of the main text and Fig. S2 of the supplementary information.
 Contains the runtime analysis of cross-entropy benchmarking on quantum and classical devices.
 * `fitter.py`: Fig. S1 of the supplementary information and tensor network fit.
-Exponential regression fits of data in `error\_rates.csv` and `tn\_n53.csv`.
+Exponential regression fits of data in `error_rates.csv` and `tn_n53.csv`.
 
 
 ## Citation
