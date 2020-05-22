@@ -2,10 +2,10 @@
 
 ## Abstract
 Google's recent quantum supremacy experiment heralded a transition point where quantum 
-computing performed a computational task, cross-entropy benchmarking of random circuits, 
+computing performed a computational task, sampling of random quantum circuits,
 beyond the reach of modern supercomputers. We examine the constraints of the observed 
 quantum runtime advantage with an analytical extrapolation to larger circuits. At current 
-error rates, we find a classical runtime advantage for circuits deeper than ~100 gates due
+error rates, we find a classical runtime advantage for circuits deeper than ~100 gates due 
 to an exponential decrease in fidelity with increasing qubits and gates, while quantum 
 runtimes bound the quantum advantage to ~300 qubits. However, reduced error rates 
 exponentially expand the region of quantum advantage, emphasizing the importance of 
@@ -20,7 +20,7 @@ which contains data from the original Google quantum supremacy experiment
 (Boixo, Sergio, et al. "Characterizing quantum supremacy in near-term devices." _Nature Physics__ 14.6 (2018): 595-600.)
 * `main.nb`: Fig. 2 and Fig. 3 of the main text and Fig. S2 of the supplementary information.
 Contains the runtime analysis of cross-entropy benchmarking on quantum and classical devices.
-* `fitter.py`: Fig. S1 of the supplementary information and tensor network fit for Fig. 3b of the main text.
+* `fitter.py`: Fig. S1 of the supplementary information and tensor network fit.
 Exponential regression fits of data in `error\_rates.csv` and `tn\_n53.csv`.
 
 
