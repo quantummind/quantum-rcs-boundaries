@@ -14,14 +14,12 @@ quantum supremacy via random circuit sampling coincides with the advent of error
 quantum computing.
 
 ## Code and data
-Three code files contain the analysis of the main text and supplementary information:
-* `fidelity.py`: Fig. 1 of the main text. Data read from `fidelity_4a.csv` and `fidelity_4b.csv`,
+Two code files contain the analysis of the main text and supplementary information:
+* `fidelity.py`: Compute the empirical fidelity model. Data read from `fidelity_4a.csv` and `fidelity_4b.csv`,
 which contains data from the original Google quantum supremacy experiment
 (Boixo, Sergio, et al. "Characterizing quantum supremacy in near-term devices." _Nature Physics__ 14.6 (2018): 595-600.)
-* `main.nb`: Fig. 2 and Fig. 3 of the main text and Fig. S2 of the supplementary information.
+* `main.nb`:
 Contains the runtime analysis of cross-entropy benchmarking on quantum and classical devices.
-* `fitter.py`: Fig. S1 of the supplementary information and tensor network fit.
-Exponential regression fits of data in `error_rates.csv` and `tn_n53.csv`.
 
 
 ## Citation
