@@ -11,7 +11,7 @@ plt.rc('font',**{'family':'serif','serif':['CMU Serif'], 'size':8})
 def model(x, a, b):
     m = x[0]
     n = x[1]
-    return a*m*(1.5*n - 0.5*np.sqrt(n)) + b*n
+    return a*m*(1.5*n - np.sqrt(n)) + b*n
 
 pa_data = np.loadtxt('fidelity_4a.csv', delimiter=',')
 pb_data = np.loadtxt('fidelity_4b.csv', delimiter=',')
@@ -47,7 +47,7 @@ f = fit(data, [-0.0017, -0.001])
 c1 = 'tab:blue'
 c2 = 'tab:red'
 
-fig, ax2 = plt.subplots(figsize=(3.6, 3.6), constrained_layout=True)
+fig, ax2 = plt.subplots(figsize=(3.8, 3.8), constrained_layout=True)
 
 plt.yscale('log')
 plt.ylim((0.001, 0.5))
